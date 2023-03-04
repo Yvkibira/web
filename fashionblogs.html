@@ -3,102 +3,74 @@
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
- <meta name="keywords" content="fashion,personal opinions.">
- <meta name="author" content="Jokibs">
-  <title>Pioneerblogspot | fashion</title>
- 
-  <style >
-      /* body */
-      
-      *{padding:0px;
-      margin:0px;}
+ <meta name="keywords" content="fashion,farming tips,financial Management,kenya,crotchet,photoshoot, opinions.">
+ <meta name="description" content=" this page focuses  on an endless array of style inspiration, aesthetics, and expert advice. The website is dedicated to all things fashion, from the latest trends to timeless classics. It features a diverse range of content, including articles on style tips, outfit ideas, and beauty hacks, as well as reviews of the latest fashion collections and accessories.
 
-      body{background :orange;
-          Text-align:center;
-          text-decoration:none;  
-          font-family:monospace;    }
-          
-          /* Header */
-      
-      header{
-          background:orange;
-          border-radius:30px;
-          border-bottom:5px solid pink ;
-          border-top:5px solid pink ;
-          box-shadow:5px 1px 10px black;
-          padding:10px;
-      }
-      header ul li{ display :inline;
-                  color:white;}
-                  
-         header a{ text-decoration :none;
-         color: white;
-         display:inline; 
-         Text-align:center ;}    
-          
-         
-         header h1{
-         font-size:50px;
-         font-family:cursive;
-         color:magenta;
-         font-weight:bold;
-         padding: 0px;
-         }  
-         span{font-size:30px;} 
-         h2{padding:10px;}         
-         .spc{Text-align:center;
-         padding:10px;
-         border-bottom:2px solid black;}
-         /* images */
-      
-         img{ width:250px;
-     height:267px;     
-     padding:20px;
-     border-radius: 30px;}
-         
-          
-      footer{background:chocolate;
-      padding:10px;}
-   </style>
-  
+The website is designed to cater to all fashion enthusiasts, regardless of age, gender, or body type. It offers a variety of shopping options, including links to  online retailers . Additionally, the website has a section dedicated to sustainable fashion, highlighting eco-friendly brands and ethical fashion practices.
+
+With its easy-to-navigate interface and engaging content, this website is the go-to destination for anyone interested in fashion. Whether you're a fashionista looking for the latest trends or a beginner seeking fashion guidance, this website has everything you need to elevate your style and become a fashion expert.
+"/>
+ <meta name="robots" content="index, follow">
+
+ <link rel="stylesheet" href="web.css">
+ <meta name="author" content="Jokibs">
+  <title>Pioneerblogspot | shop</title>
+ 
   
   </head>  
   
 <body>
     
     <header>
-    <h1>Pioneer<span>Blogspot</span></h1>
+        <div class="container">
+        <button id="toggle-button"><div class="hamburger">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+</button>
+
+
+ <a href="https://yvkibira.github.io/web/">  <h1>Pioneer<span>Blogspot</span></h1></a>
+    </div>
+    
     <nav>
       <ul>
-        <li><a href="#">Fashion</a></li>
-        <li><a href="#">Financial</a></li>
-        <li><a href="farming.html">Farming</a></li>
-        <li><a href="#">Opinions</a></li>
-        <li><a href="#">Life</a></li>
+        <li><a  class="toggle-element hidden" href="fashionblogs.html">Fashion</a></li>
+        <li><a  class="toggle-element hidden" href="#">Financial</a></li>
+        <li><a class="toggle-element hidden" href="farming.html">Farming</a></li>
+        <li><a class="toggle-element hidden" href="#">Opinions</a></li>
+        <li><a class="toggle-element hidden"href="shop.html">shop</a></li>
       </ul>
     </nav>
   </header>
+
   
     <main>
     <section>
-      <article class="spc">
-          <hr>
+        <article class="spc">  
+        <hr>
           
         <h2>When Aesthetes G0 Into Fashion </h2>
  
         <img src="janet.jpg" alt="image">
-        <p>A bralette is a garment that doubles as innerwear and outerwear.It can be lacy, sporty, satiny,or even leather.You can wear yours in place of a bra or over one, depending on how much support you need.You can wear it under or over your top–or in place of it... <a  href="fashion_1.html">read more</a></p>
+       <p>
+           
+
+Bralettes are a versatile garment that can be worn as both innerwear and outerwear. Available in a range of styles, from lacy and delicate to sporty and edgy, they offer a comfortable and fashionable alternative to traditional bras.
+
+Unlike wired bras, bralettes are wire-free and feature minimal or no padding. This design creates a more natural breast shape and offers a lighter level of support. It's important to note that some bralettes may not provide enough support for larger busts, so it's important to choose a design that fits your body type.
+
+ <a class="see" href="https://jokibs.github.io/elle/">see her page</a>
+           
+       </p>
       </article>
-      
-      
-     
-    
+        
+   </section>
     
   </main>
  
-<footer>
-    <h6>COPYRIGHT PIONEER BLOGSPOT@2023</h6>
-</footer>
+<script src="web.js"></script>
 
  </body>
 </html>
