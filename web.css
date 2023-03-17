@@ -79,4 +79,27 @@ button:hover {background: pink;}
   body {
     margin: 0 25.25rem;
   }
+
 }
+
+ table{ border: 1px solid white;
+ Text-align :center;
+ border-collapse:collapse;
+ width: 100%;}
+ 
+ th{ border-bottom: 1px solid white;
+ Text-align :center;}
+.op{border-left:1px solid white;}
+
+#myDiv {
+  display: none;
+}
+.farma a{text-decoration:none;
+color: black;}
+.wa{}
+.call{padding:0px 5px;}
+.farma{position: relative;
+bottom:80px;}
+
+
+
