@@ -1,5 +1,5 @@
 var i1 = 0;
-var images1 = ['elle1.jpg', 'elle2.jpg', 'elle3.jpg' ,'elle4.jpg'];
+var images1 = ['ellep.jpg','elle1.jpg', 'elle2.jpg', 'elle3.jpg' ,'elle4.jpg'];
 var time1 = 3000;
 
 function changeimg1() {
