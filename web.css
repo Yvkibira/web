@@ -1,32 +1,14 @@
-
-      /* body */
-      
-      *{padding:0px;
-      margin:0px;}
-
-      body{background :grey;
-           color:black;
-          Text-align:center;
-          text-decoration:none;  
-          font-family:monospace;    }
-          
-          /* Header */
-      
-      header{border-bottom:3px solid pink ;
-          box-shadow:5px 1px 10px black;
-          padding:10px;
-               }
-      header ul li{ display :inline;
-                  color:white;}
-                  
-         header a{ text-decoration :none;
-         color: white;
-        
-         Text-align:center ;}    
-          
-         
-         header h1{
-         font-size:50px;
+ /* body */
+ *{padding:0px;margin:0px;}
+body{background :grey;color:black;Text-align:center;
+text-decoration:none;font-family:monospace;}
+/* Header */
+header{border-bottom:3px solid pink ;box-shadow:5px 1px 10px black;
+padding:10px;}
+header ul li{ display :inline;color:white;}
+header a{ text-decoration :none;color: white;
+Text-align:center;}    
+header h1{font-size:50px;
          font-family:cursive;
          color:black;
          font-weight:bold;
@@ -39,8 +21,7 @@
          padding:10px;
          border-bottom:2px solid black;}
          /* images */
-      
-         img{ width:250px;
+     img{ width:250px;
      height:267px;     
      padding:20px;
      border-radius: 30px;}
@@ -89,6 +70,7 @@ button:hover {background: pink;}
  
  th{ border-bottom: 1px solid white;
  Text-align :center;}
+td{border: 1px solid white;}
 .op{border-left:1px solid white;}
 
 #myDiv {
