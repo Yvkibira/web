@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tic Tac Toe</title>
+	<style>
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			width: 300px;
+			margin: 0 auto;
+		}
+
+		.box {
+			width: 80px;
+			height: 80px;
+			border: 2 {
+			color: blue;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+	</div>
+
+	<script>const boxes = document.querySelectorAll(".box");
+let currentPlayer = 1;
+let winner = false;
+
+const checkForWinner = () => {
+	// Check rows
+	for (let i = 0; i < 9; i += 3) {
+		if (boxes[i].textContent !== "" && boxes[i].textContent === boxes[i+1].textContent && boxes[i].textContent === boxes[i+2].textContent) {
+			boxes[i].classList.add("winner");
+			boxes[i+1].classList.add("winner");
+			boxes[i+2].classList.add("winner");
+			return boxes[i].textContent;
+		}
+	}
+
+	// Check columns
+	for (let i = 0; i < 3; i++) {
+		if (boxes[i].textContent !== "" && boxes[i].textContent === boxes[i+3].textContent && boxes[i].textContent === boxes[i+6].textContent) {
+			boxes[i].classList.add("winner");
+			boxes[i+3].classList.add("winner");
+			boxes[i+6].classList.add("winner");
+			return boxes[i].textContent;
+		}
+	}
+
+	// Check diagonals
+	if (boxes[0].textContent !== "" && boxes[0].textContent === boxes[4].textContent && boxes[0].textContent === boxes[8].textContent) {
+		boxes[0].classList.add("winner");
+		boxes[4].classList.add("winner");
+		boxes[8].classList.add("winner");
+		return boxes[0].textContent;
+	}
+
+	if (boxes[2].textContent !== "" && boxes[2].textContent === boxes[4].textContent && boxes[2].textContent === boxes[6].textContent) {
+		boxes[2].classList.add("winner");
+		boxes[4].classList.add("winner");
+		boxes[6].classList.add("winner");
+		return boxes[2].textContent;
+	}
+
+	return false;
+};
+
+const restartGame = () => {
+	boxes.forEach(box => {
+		box.textContent = "";
+		box.classList.remove("winner", "player1", "player2");
+	});
+	currentPlayer = 1;
+	winner = false;
+};
+
+boxes.forEach(box => {
+	box.addEventListener("click", () => {
+		if (!winner && box.textContent === "") {
+			box.textContent = currentPlayer === 1 ? "X" : "O";
+			box.classList.add(currentPlayer === 1 ? "player1" : "player2");
+			currentPlayer = currentPlayer === 1 ? 2 : 1;
+			const result = checkForWinner();
+			if (result) {
+				alert(`Player ${result} wins!`);
+				winner = true;
+			}
+		}
+	});
+});
+
+const restartButton = document.createElement("button");
+restartButton.textContent = "Restart";
+restartButton.addEventListener("click", restartGame);
+document.body.appendChild(restartButton);
+</script>
+</body>
+</html>
