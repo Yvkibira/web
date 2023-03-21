@@ -13,9 +13,20 @@
 		}
 
 		.box {
-			width: 80px;
-			height: 80px;
-			border: 2 {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			box-sizing: border-box;
+			border: 1px solid black;
+			width: 100px;
+			height: 100px;
+			font-size: 48px;
+			cursor: pointer;
+		}
+		.box.player1 {
+			color: red;
+		}
+		.box.player2 {
 			color: blue;
 		}
 	</style>
