@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7TJHKTM56Y"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7TJHKTM56Y');
+</script>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"><meta name="keywords"content="Small SEO Tools,Designer,Posters and logos,Graphic design tool,Easy to use, Affordable design,High-quality graphics,Business branding.">
+ <meta name="description" content="this page describes how one can create a poster and a website logo using small seo tools. "/>
+ <meta name="robots" content="index, follow">
+
+ <link rel="stylesheet" href="web.css">
+ <meta name="author" content="Jokibs">
+  <title> How to Use Small SEO Tools Designer for Creating Posters and Logos</title>
+ </head>  
+ <body>
+  <header>
+        <div class="container">
+        <button id="toggle-button"><div class="hamburger">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+</button>
+
+<a href="https://yvkibira.github.io/web/">  <h1>Pioneer<span>Blogspot</span></h1></a>
+    
+    </div>
+    
+    <nav>
+      <ul>
+        <li><a  class="toggle-element hidden" href="fashionblogs.html">Fashion</a></li>
+        <li><a  class="toggle-element hidden" href="#">Financial</a></li>
+        <li><a class="toggle-element hidden" href="farming.html">Farming</a></li>
+        <li><a class="toggle-element hidden" href="#">Opinions</a></li>
+        <li><a class="toggle-element hidden"href="shop.html">shop</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+      <article class="spc" >Small SEO Tools is a website that offers a variety of free and paid tools to help website owners, bloggers, and digital marketers optimize their online presence. Some of the main offerings of Small SEO Tools include:<br>
+<br>
+• Plagiarism Checker: This tool checks for duplicate content across the web and helps users avoid copyright infringement issues.<br>
+<br>
+• Keyword Position Checker: This tool lets users check the ranking of their website for specific keywords on different search engines.<br>
+<br>
+• Backlink Checker: This tool helps users track their website's backlinks, which are links from other websites that point to their site.<br>
+<br>
+• Grammar Checker: This tool checks the grammar and spelling of the content and provides suggestions for corrections.<br>
+<br>
+• Word Counter: This tool counts the number of words, characters, sentences, and paragraphs in a piece of text.<br>
+<br>
+• Image Compression Tool: This tool compresses the size of images to help improve website speed.<br>
+<br>
+• Website Speed Test: This tool analyzes website speed and provides suggestions for improvement.<br>
+<br>
+Small SEO Tools is an all-in-one digital platform that offers a wide range of tools to help website owners and digital marketers optimize their online presence. One of the tools that is often overlooked is the Small SEO Tools Designer. This powerful tool allows users to create stunning posters and logos for their websites in just a few simple steps. In this article, we'll go over how to use the Small SEO Tools Designer to make posters and logos, step by step.<br>
+
+Step 1: Go to the Small SEO Tools Designer<br>
+<br>
+To get started, head to the Small SEO Tools website and navigate to the Designer tool. You can find the Designer tool under the "More Tools" section of the website. Once you're on the Designer page, you'll see a range of templates to choose from. These templates are pre-designed layouts that you can customize to fit your needs.<br>
+<br>
+Step 2: Choose a template<br>
+<br>
+Once you're on the Designer page, scroll through the templates until you find one that fits the type of poster or logo you want to create. Click on the template to open it up and start editing.<br>
+<br>
+Step 3: Customize your design<br>
+<br>
+Once you've chosen a template, you can start customizing your design. The Designer tool allows you to change the text, font, color, and images in the template to fit your needs. To change the text, simply click on the text box and start typing. You can also change the font, size, and color of the text by using the editing tools on the left-hand side of the screen. To change the images, click on the image box and choose a new image from the Small SEO Tools library or upload your own.<br>
+<br>
+Step 4: Save and download your design<br>
+<br>
+Once you're happy with your design, it's time to save and download it. Click on the "Save" button at the top of the screen to save your design to your Small SEO Tools account. From there, you can download your design as a JPEG, PNG, or PDF file.<br>
+<br>
+Using Small SEO Tools Designer to make posters and logos is an easy and affordable way to create high-quality graphics for your website. With a range of templates to choose from and powerful customization tools, anyone can create stunning graphics in just a few clicks. Whether you're a blogger, business owner, or digital marketer, Small SEO Tools Designer is a tool that you won't want to overlook.<br>
+<br>
+<a href="comparison.html">comparison between SmallSEOTools and seoability</a><br>
+<br>
+          
+      </article>
+  </main>
+     <script src="web.js"></script>
+</body>
+ </html>
