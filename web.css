@@ -6,7 +6,7 @@ text-decoration:none;font-family:monospace;}
 header{border-bottom:3px solid pink ;box-shadow:5px 1px 10px black;
 padding:10px;}
 header ul li{ display :inline;color:white;}
-header a{background-image:url('logo_1.png');background-repeat:no-repeat;background-size:cover;width: 18.25rem;height: 3.5rem;}    
+.logo{background-image:url('logo_1.png');background-repeat:no-repeat;background-size:cover;width: 18.25rem;height: 3.5rem;}    
 
 nav a{text-decoration:none;
      color:white;}
