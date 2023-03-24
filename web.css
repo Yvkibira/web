@@ -8,7 +8,8 @@ padding:10px;}
 header ul li{ display :inline;color:white;}
 header a{background-image:url('logo_1.png');background-repeat:no-repeat;background-size:cover;width: 18.25rem;height: 3.5rem;}    
 
-
+nav a{text-decoration:none;
+     color:white;}
          span{font-size:30px;} 
          h2{padding:10px;}         
          .spc{Text-align:left;
