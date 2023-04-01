@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7TJHKTM56Y"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7TJHKTM56Y');
+</script>
+    <meta charset="UTF-8">
+    <title>Fingerprint based attendance sign in</title>
+    <link rel="stylesheet" href="style3.css">
+   </head>
+<body>
+  
+   <header>
+       <img src="PIU.png" alt="piu logo">
+   </header>
+   <hr> 
+ <div class="form">
+     
+ <form>
+     <label for="course">Course:</label>
+  <input type="text" id="course" name="course" readonly><br>
+
+  <label for="name">Names:</label>
+  <input type="text" id="name" name="name" readonly><br>
+
+  
+  <label for="admission">Admno:</label>
+  <input type="text" id="admission" name="admission" readonly>
+</form>
+</div>
+
+<div class="tt">
+    <div class="timetable">
+<table>
+  <tr>
+    <th></th>
+    <th>8.00 AM</th>
+    <th>11:00 AM</th>
+    <th>2.00 PM</th>
+  </tr>
+  <tr>
+    <td>Monday</td>
+    <td id="mon-8am">Web programming</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Tuesday</td>
+    <td id="tue-8am">Mobile computing</td>
+    <td id="tue-11am">Software engineering</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Wednesday</td>
+    <td id="wed-8am">Research methods</td>
+    <td id="wed-11am">Java programming</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Thursday</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Friday</td>
+    <td id="fri-8am">Gender</td>
+    <td></td>
+    <td></td>
+  </tr>
+
+</table>
+  
+  <br>
+  <hr>
+  <br>
+    <div>
+     <table class="webp">
+		
+		<thead>
+			<tr>
+				<th></th>
+				<th>Week 1</th>
+				<th>Week 2</th>
+				<th>Week 3</th>
+				<th>Week 4</th>
+				<th>Week 5</th>
+				<th>Week 6</th>
+				<th>Week 7</th>
+				<th>Week 8</th>
+				<th>Week 9</th>
+				<th>Week 10</th>
+				<th>Week 11</th>
+				<th>Week 12</th>
+				<th>Week 13</th>
+				<th>Week 14</th>
+				<th>Week 15</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td > Gender</td>
+				<td id="week1"></td>
+				<td id="week2"></td>
+				<td id="week3"></td>
+				<td id="week4"></td>
+				<td id="week5"></td>
+				<td id="week6"></td>
+				<td id="week7"></td>
+				<td id="week8"></td>
+				<td id="week9"></td>
+				<td id="week10"></td>
+				<td id="week11"></td>
+				<td id="week12"></td>
+				<td id="week13"></td>
+				<td id="week14"></td>
+				<td id="week15"></td>
+			</tr>
+		</tbody>
+	</table>
+
+	
+    
+</div>
+
+ <div class="btn">
+        <button style="text-align:center;padding:10px;color:red;background:pink;" id="attendance-btn" > Sign attendance 
+            
+        </button>
+        
+       <button onclick="toggleAttendanceView()">View your attendance records</button>
+
+
+        </div></div>
+        <div class="attendance-View">
+            
+            
+            
+            
+            
+            <table class="webp">
+        <h1 style="text-align:center;"> web programming</h1>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Week 1</th>
+      <th>Week 2</th>
+      <th>Week 3</th>
+      <th>Week 4</th>
+      <th>Week 5</th>
+      <th>Week 6</th>
+      <th>Week 7</th>
+      <th>Week 8</th>
+      <th>Week 9</th>
+      <th>Week 10</th>
+      <th>Week 11</th>
+      <th>Week 12</th>
+      <th>Week 13</th>
+      <th>Week 14</th>
+      <th>Week 15</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="student-name"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+   
+    </table>
+    <hr>
+    <br>
+    <hr>
+    <table class="mobilec">
+        <h1 style="text-align:center;"> Mobile computing</h1>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Week 1</th>
+      <th>Week 2</th>
+      <th>Week 3</th>
+      <th>Week 4</th>
+      <th>Week 5</th>
+      <th>Week 6</th>
+      <th>Week 7</th>
+      <th>Week 8</th>
+      <th>Week 9</th>
+      <th>Week 10</th>
+      <th>Week 11</th>
+      <th>Week 12</th>
+      <th>Week 13</th>
+      <th>Week 14</th>
+      <th>Week 15</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="student-name"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+ 
+    </table>
+    <hr>
+    <br>
+    <hr>
+    <table class="swe">
+        <h1 style="text-align:center;"> Software engineering</h1>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Week 1</th>
+      <th>Week 2</th>
+      <th>Week 3</th>
+      <th>Week 4</th>
+      <th>Week 5</th>
+      <th>Week 6</th>
+      <th>Week 7</th>
+      <th>Week 8</th>
+      <th>Week 9</th>
+      <th>Week 10</th>
+      <th>Week 11</th>
+      <th>Week 12</th>
+      <th>Week 13</th>
+      <th>Week 14</th>
+      <th>Week 15</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="student-name"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    </table>
+        <hr>
+    <br>
+    <hr>
+    <table class="swe">
+        <h1 style="text-align:center;"> Java programming</h1>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Week 1</th>
+      <th>Week 2</th>
+      <th>Week 3</th>
+      <th>Week 4</th>
+      <th>Week 5</th>
+      <th>Week 6</th>
+      <th>Week 7</th>
+      <th>Week 8</th>
+      <th>Week 9</th>
+      <th>Week 10</th>
+      <th>Week 11</th>
+      <th>Week 12</th>
+      <th>Week 13</th>
+      <th>Week 14</th>
+      <th>Week 15</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="student-name"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+ 
+    </table>
+        <hr>
+    <br>
+    <hr>
+    <table class="swe">
+        <h1 style="text-align:center;"> Research Methods</h1>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Week 1</th>
+      <th>Week 2</th>
+      <th>Week 3</th>
+      <th>Week 4</th>
+      <th>Week 5</th>
+      <th>Week 6</th>
+      <th>Week 7</th>
+      <th>Week 8</th>
+      <th>Week 9</th>
+      <th>Week 10</th>
+      <th>Week 11</th>
+      <th>Week 12</th>
+      <th>Week 13</th>
+      <th>Week 14</th>
+      <th>Week 15</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="student-name"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    </table>
+        <hr>
+    <br>
+    <hr>
+    <table class="swe">
+        <h1 style="text-align:center;"> GENDER</h1>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Week 1</th>
+      <th>Week 2</th>
+      <th>Week 3</th>
+      <th>Week 4</th>
+      <th>Week 5</th>
+      <th>Week 6</th>
+      <th>Week 7</th>
+      <th>Week 8</th>
+      <th>Week 9</th>
+      <th>Week 10</th>
+      <th>Week 11</th>
+      <th>Week 12</th>
+      <th>Week 13</th>
+      <th>Week 14</th>
+      <th>Week 15</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="student-name"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    
+   
+    </table>
+            </div>
+ 
+<footer>
+    <ul>
+   <li> <a href="error.html">report error</a></li>
+   <li> <a href="#">piu student handbook</a></li>
+  <li>  <a href="https://piu.ac.ke/">piu website</a> </li>
+    </ul>
+</footer>
+  <script src="fingerver3.js"></script>
+</body>
+</html>
