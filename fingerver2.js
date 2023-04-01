@@ -18,7 +18,7 @@ window.addEventListener('load', function() {
   if (dayOfWeek === 3 && hour === 8 && minute >= 0 && minute < 60) {
     document.getElementById("wed-8am").style.backgroundColor = "green";
   }
-  if (dayOfWeek === 5) /*  && hour === 22 && minute >= 0 && minute < 60) */ {
+  if (dayOfWeek === 6) /*  && hour === 9 && minute >= 0 && minute < 60) */ {
     document.getElementById("fri-8am").style.backgroundColor = "green";
   }
 
@@ -29,9 +29,9 @@ window.addEventListener('load', function() {
   const admissionField = document.getElementById('admission');
 
   // Set the values of the fields
-  nameField.value = 'IT STUDENT';
+  nameField.value = 'Mwanahamisi Khamisi';
   courseField.value = 'Bachelor in informationtechnology';
-  admissionField.value = 'Bit/0000/2021';
+  admissionField.value = 'Bit/000/2021';
   
   
   
