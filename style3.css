@@ -1,0 +1,60 @@
+
+      * {padding:0px;
+      margin:0px;}
+      header{ background: purple;
+      width :100%; }
+      img{width :100%;}
+    .form form{ border-bottom: 3px solid black;
+    Text-align :left;
+    padding :20px;
+     }
+    
+  form{ font-size:29px;
+  padding-bottom:10px;  } 
+    .timetable {border-bottom: 3px solid black;
+    text-align :center ;}
+    form input{ font-size:29px;}
+        table {
+  border-collapse: collapse;
+  width: 50%;
+  max-width: 300px;
+  margin: 0 auto;
+  
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+td:first-child, th:first-child {
+  text-align: left;
+  font-weight: bold;
+  background-color: #fff;
+}
+
+.btn{text-align :center ;
+padding:30px 0px;
+}
+
+
+footer{ text-align:left ;
+padding :20px 20px;
+}
+
+footer  a{ text-decoration:none;}
+footer  ul li{ list-style:none;
+padding:10px;}
+
+    
+.attendance-View {
+  display: none;
+}
+.attendance-View.show {
+  display: block;
+}
