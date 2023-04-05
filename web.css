@@ -1,9 +1,9 @@
  /* body */
  *{padding:0px;margin:0px;}
-body{background :grey;color:black;Text-align:center;
+body{background :white;color:black;Text-align:center;
 text-decoration:none;font-family:monospace;}
 /* Header */
-header{border-bottom:3px solid pink ;box-shadow:5px 1px 10px black;
+header{background:grey;border-bottom:3px solid pink ;box-shadow:5px 1px 10px black;
 padding:10px;}
 header ul li{ display :inline;color:white;}
 .logo{background-image:url('logo_1.png');background-repeat:no-repeat;background-size:cover;width: 18.25rem;height: 3.5rem;}    
