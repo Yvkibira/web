@@ -1,16 +1,18 @@
- /* body */
  *{padding:0px;margin:0px;}
-body{background :white;color:black;Text-align:center;
-text-decoration:none;font-family:monospace;}
-/* Header */
+body{background:white;color:black;Text-align:center;text-decoration:none;font-family:monospace;}
+     /* Header */
 header{background:grey;border-bottom:3px solid pink ;box-shadow:5px 1px 10px black;
 padding:10px;}
 header ul li{ display :inline;color:white;}
-.logo{background-image:url('logo_1.png');background-repeat:no-repeat;background-size:cover;width: 18.25rem;height: 3.5rem;}    
 
+ .log{text-decoration :none;
+ color:black;
+ font-size:25px ;
+ font-weight :bold;}
+ .log1{font-size:40px;}
 nav a{text-decoration:none;
      color:white;}
-         span{font-size:30px;} 
+         
          h2{padding:10px;}         
          .spc{Text-align:left;
          padding:10px;
@@ -73,7 +75,6 @@ td{border: 1px solid white;}
 }
 .farma a{text-decoration:none;
 color: black;}
-.wa{}
 .call{padding:0px 5px;}
 .farma{position: relative;
 bottom:80px;}
