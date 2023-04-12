@@ -21,6 +21,26 @@ window.addEventListener('load', function() {
   if (dayOfWeek === 6) /*  && hour === 22 && minute >= 0 && minute < 60) */ {
     document.getElementById("fri-8am").style.backgroundColor = "green";
   }
+if (dayOfWeek === 1 && hour >= 8 && hour < 11) {
+  document.getElementById("mon-8am").style.backgroundColor = "green";
+}
+if (dayOfWeek === 2 && ((hour >= 8 && hour < 11) || (hour >= 11 && hour < 14))) {
+  if (hour >= 8 && hour < 11) {
+    document.getElementById("tue-8am").style.backgroundColor = "green";
+  } else {
+    document.getElementById("tue-11am").style.backgroundColor = "green";
+  }
+}
+if (dayOfWeek === 3 && ((hour >= 8 && hour < 11) || (hour >= 11 && hour < 14))) {
+  if (hour >= 8 && hour < 11) {
+    document.getElementById("wed-8am").style.backgroundColor = "green";
+  } else {
+    document.getElementById("wed-11am").style.backgroundColor = "green";
+  }
+}
+if (dayOfWeek === 6 && hour >= 20 && hour < 23) {
+  document.getElementById("fri-8pm").style.backgroundColor = "green";
+}
 
 
   // Get references to the form fields
@@ -71,3 +91,41 @@ window.addEventListener('load', function() {
 }
 
   
+const allowedRanges = [
+'105.167.234.137',
+  '102.69.224.0/24',
+  '102.69.227.0/24',
+  '102.69.228.216/30',
+  '102.215.4.0/22',
+  '102.217.128.0/22',
+  '102.218.233.0/24',
+  '102.220.36.0/23',
+  '102.220.39.0/24',
+  '2c0f:e818::/118',
+  '102.215.40.0-102.215.43.255',
+'102.223.32.0-102.223.32.255'
+];
+
+function isIpAllowed(ip) {
+  return allowedRanges.some(range => {
+    const [startIp, cidr] = range.split('/');
+    const mask = (0xffffffff << (32 - cidr)) >>> 0;
+    const startIpInt = ipToInt(startIp);
+    const endIpInt = startIpInt | ~mask;
+    const ipInt = ipToInt(ip);
+    return ipInt >= startIpInt && ipInt <= endIpInt;
+  });
+}
+
+function ipToInt(ip) {
+  return ip.split('.').reduce((acc, octet) => (acc << 8) + parseInt(octet), 0) >>> 0;
+}
+
+fetch('https://ipapi.co/ip/')
+  .then(response => response.text())
+  .then(ip => {
+    if (!isIpAllowed(ip)) {
+      window.location.replace('https://www.pioneerblogspot.co.ke/access.html');
+    }
+  });
+ 
