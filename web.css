@@ -4,7 +4,7 @@ body{background:white;color:black;Text-align:center;text-decoration:none;font-fa
 header{background:grey;border-bottom:3px solid pink ;box-shadow:5px 1px 10px black;
 padding:10px;}
 header ul li{ display :inline;color:white;}
-
+.logo{font-family:cursive;}
  .log{text-decoration :none;
  color:black;
  font-size:25px ;
