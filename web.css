@@ -8,7 +8,7 @@ overflow: hidden;
   position: fixed;
   top: 0;
   width: 100%;
-
+  
      }
      main {
    padding-top: 100px;
@@ -96,4 +96,8 @@ color: black;}
 bottom:80px;}
 
 
-
+.data{background-color: green;
+padding:10px 50px;
+border-radius:30px;}
+.data a{ 
+    text-decoration :none;
