@@ -2,11 +2,27 @@
 body{background:white;color:black;Text-align:center;text-decoration:none;font-family:monospace;}
      /* Header */
 header{background:grey;border-bottom:3px solid pink ;box-shadow:5px 1px 10px black;
-padding:10px;}
+padding:10px;
+overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+     }
+     main {
+   padding-top: 100px;
+  
+  
+  background:white ;
+}
+                           
+
+
 header ul li{ display :inline;color:white;}
 .logo{font-family:cursive;}
  .log{text-decoration :none;
- color:black;
+ color:white;
  font-size:25px ;
  font-weight :bold;}
  .log1{font-size:40px;}
