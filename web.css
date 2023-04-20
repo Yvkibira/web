@@ -108,8 +108,7 @@ button:hover {background: pink;}
 }*/
 .footer{background-image:url('image.png');
 background-position:fixed ;
-background-attachment:cover;
-background-repeat-no-repeat;     
+background-attachment:cover;   
 width:100%;
 height: 50vh;}
  table{ border: 1px solid white;
