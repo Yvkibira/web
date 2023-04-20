@@ -18,6 +18,34 @@
  <link rel="stylesheet" href="web.css">
  <link rel="sitemap" type="application/xml" href="/sitemap.xml">
  <meta name="author" content="Jokibs">
+ <style>
+.slideshow {
+  position: relative;
+  height: 50px; /* Set the height to the desired size */
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  font-size: 24px;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.slide.active {
+  opacity: 1;
+}
+.slide a {
+  pointer-events: auto;
+  text-decoration:none;
+  color:purple;
+}
+
+
+ </style>
  <title>Pioneer blogspot</title>
  </head>  
  <body>
@@ -41,28 +69,62 @@
     </nav>
   </header>
   <main>
-   <section>
-    <article class="spc">    
-     <hr>    
-     <h1>When Aesthetes G0 Into Fashion </h1>
-     <img src="janet.jpg" alt="image">
-     <p>Bralettes are a versatile garment that can be worn as both innerwear and outerwear. Available in a range of styles, from lacy and delicate to sporty and edgy, they offer a comfortable and fashionable alternative to traditional bras.Unlike wired bras, bralettes are wire-free and feature minimal or no padding.<br> This design creates a more natural breast shape and offers a lighter level of support. It's important to note that some bralettes may not provide enough support for larger busts, so it's important to choose a design that fits your body type...
-     <a  href="fashion1.html">read more</a></p>
-    </article> 
-    <article class="spc">
-     <h2>To Start Hatching Your Own Chiks Here's  What You Need.</h2>
-     <img src="Kuku.jpg" alt="image">
-     <p>Starting a chicken farming business can be a profitable venture, but it requires careful planning and investment. One key component of chicken farming is the use of an incubator to hatch eggs.<br> In this article, we'll break down the costs and potential earnings of starting a small-scale chicken farming business using an incubator...
-     <a class="camo" href="poultry.html">read more</a></p>      
-    </article>  
-    <article class="spc" >
-     <h3>Practical Guide To Starting A Broiler Business From Scratch </h3> 
-     <img src="Kuku2.jpg" alt="image">
-     <p>Raising chickens can be a fun and rewarding experience, but it requires careful planning and preparation. Before you order chicks, you need to ensure you have the right equipment to care for them.Firstly, you will need a chicken coop that is properly ventilated to provide fresh air for the chicks. <br>Chickens need enough air to grow, and they can become ill or even die if they lack it. Also, ensure that the coop is safe from predators such as foxes or snakes....  <a href="poultry2.html">read more</a></p>      
-   </article>
-  </section>       
+   <section class="showcase">
+       <p class="big">Explore  </p>
+     <div class="slideshow">
+  <span class="slide"><a href="fashionblogs.html">Fashion blogs</a></span>
+  <span class="slide"><a href="fashionblogs.html">Farming Blogs</a></span>
+  <span class="slide"><a href="fashionblogs.html">Opinion Blogs</a></span>
+</div>
+
+     
+  </section>  
+  
+<section >
+ <h1 class="latest"> latest  blogs</h1>
+      <div class="lblogs lnone">
+        <img src="mpesa.jpg" alt="mali by Safaricom "><a href="https://www.pioneerblogspot.co.ke/Why-mali-by-safaricom-%20is-best-for-students-blog.html">Saving Money On Safaricom's investment platform 'Mali'</a>
+       
+      </div>
+      <p class="bottom lnone" >- april 20, 2023</p> 
+      <div class="lblogs">
+         
+      </div>
+      <div class="lblogs">
+          
+      </div>
+      <div class="lblogs">
+          
+      </div>
+      <div class="lblogs">
+          
+      </div>
+      
+      <br>
+      
+      <hr>
+  </section>    
  </main>
+ <footer class="footer">
+     
+ </footer>
 <script src="web.js"></script>
+<script >// Get all the slides
+var slides = document.querySelectorAll('.slide');
+// Set the initial slide index to 0
+var currentSlideIndex = 0;
+// Show the first slide
+slides[currentSlideIndex].classList.add('active');
+// Set an interval to show the next slide every 3 seconds
+setInterval(function() {
+  // Hide the current slide
+  slides[currentSlideIndex].classList.remove('active');
+  // Move to the next slide
+  currentSlideIndex = (currentSlideIndex + 1) % slides.length;
+  // Show the next slide
+  slides[currentSlideIndex].classList.add('active');
+}, 4000);
+</script>
 </body>
 </html>
  
