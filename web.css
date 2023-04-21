@@ -106,7 +106,7 @@ button:hover {background: pink;}
   }
 
 }*/
-.footer{background-image:url('image.png');
+.footer{background-image:url('image.webp');
 background-position:fixed ;
 background-attachment:cover;   
 width:100%;
