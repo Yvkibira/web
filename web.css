@@ -137,3 +137,7 @@ border-radius:30px;}
 .data a{ 
     text-decoration :none;
 }
+footer p{position:absolute;
+bottom:-450px;
+left:30px
+}
