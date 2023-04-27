@@ -27,6 +27,36 @@
  <link rel="stylesheet" href="web.css">
  <meta name="author" content="Jokibs">
  <title>What to do next after uploading your website</title>
+ <style>
+        /* Style the buttons that are used to open and close the accordion */
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  font-size: 16px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS) */
+.accordion.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 22px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+    </style>
  </head>  
 <body>
 <header>
@@ -113,10 +143,62 @@ In this example, the title attribute provides a concise and descriptive explanat
 
 By using these tools, you can optimize your website, improve its performance, and increase its visibility in search results. So what are you waiting for? Start using these tools today and take your website to the next level!<br>
 <br>
+<h3>The final stage</h3>
+so you finished making your  own website  for <a href="step-by-step-website-publishing.html">free </a>and optimizing  it. The next step is to monetize the website. One way to monetize  the website  is by placing  ads and that is where google adsense  come to action<br>
+<br><button class="accordion">What are some of the requirements to use google adsense ?</button>
+<div class="panel"><br>
+<br>
+ <ol start="I"><br>
+     <li> Content Guidelines: Your website or blog must have original, high-quality content that complies with Google's content policies. These policies include avoiding adult content, violence, hate speech, and copyright infringement.</li><br>
+     <li>Age Requirement: You must be at least 18 years old to join AdSense. If you are under 18, you can ask your parent or guardian to apply on your behalf.</li><br>
+     <li>Website/Blog Ownership: You must own the website or blog that you want to monetize with AdSense. You cannot monetize websites or blogs that you don't own or control.</li><br>
+     <li>Traffic Requirements: While there are no specific traffic requirements, it's recommended to have some traffic before applying to AdSense. Google wants to see that your website is established and has a steady flow of visitors.
+</li><br>
+     <li>Ad Placement: You must comply with Google's ad placement policies, which state that ads cannot be placed on pages with no content or on non-content-based pages such as thank-you pages or 404 error pages.</li><br>
+ </ol> 
+</div>
+<button class="accordion"> Google AdSense  policies </button>
+<div class="panel"><br>
+<br>
+  
+Some of these policies include:
+<ol start="I">
+<li> Content Policies: AdSense publishers must create and publish original, high-quality content that complies with Google's content policies. This includes avoiding adult content, violence, hate speech, and copyright infringement.</li><br>
+
+<li> Traffic Policies: Publishers must not artificially inflate traffic to their websites or generate clicks on AdSense ads through unethical means such as click farms or automated clicking tools.</li><br>
+
+<li> Invalid Click Activity Policies: Publishers must not engage in any activity that generates invalid clicks, such as clicking their own ads, encouraging others to click on their ads, or using bots or other automated tools to generate clicks.</li><br>
+
+<li> Prohibited Content Policies: AdSense publishers cannot display ads on websites that promote illegal activities, such as drug use or hacking, or on websites that contain any type of malware or harmful software.</li><br>
+
+<li>User Data Policies: Publishers must comply with Google's user data policies and protect any user data they collect. Publishers must also provide users with clear and transparent information about how their data is used.</li>
+</ol>
+</div>
+<br>
+To learn  more about  google AdSense  here are link to some useful resources <br>
+1.<a href="https://youtu.be/W7r2w0aq3kE" title=" a link to  @ferdykorpershoek YouTube  video ">ferdykorpershoek youtube video on adsense</a><br>
+2.<a href="https://support.google.com/adsense/answer/48182?hl=en">google adsense policies</a><br>
+3.<a href="https://youtube.com/@AdSense">Googles adsense youtube channel</a><br>
   </article>        
  </section>
 </main>
 <script src="web.js"></script>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
 </body>
 </html>
  
