@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7TJHKTM56Y"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7TJHKTM56Y');
+</script>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+ <meta name="robots" content="index, follow">
+ <meta name="keywords" content="connect custom domain,Hostpinnacle,Github,domainkenya,blogger,website.">
+ <meta name="description" content="This article provides knowledge on how to connect your Github hosted site to hostpinnacle  custom domain">
+ <meta property="og:title" content="Connecting Hostpinnacle custom domain to Github">
+<meta property="og:site_name" content="Pioneerblogspot">
+<meta property="og:url" content="https://www.pioneerblogspot.co.ke/connect-hostpinnacle-custom-domain-to-github">
+<meta property="og:description" content="For hostpinnacle what you need to do is  open a ticket  then write your cname records and ask them  to add your cname records .Be sure to include the trailing period at the end of your Github page (yourusername.github.io.)Which i have identified to be causing an issue.">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://www.pioneerblogspot.co.ke/pinnacle.webp">
+
+   <link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png"> 
+  <link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png"> 
+  <link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png"> 
+  <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png"> 
+  <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-96x96.png">
+ <link rel="preload" href="web.css" as="style">
+ <link rel="stylesheet" href="web.css">
+ <title>Connecting Hostpinnacle custom domain to Github</title>
+ </head>  
+ <body>
+  <header>
+   <div class="container">
+    <button id="toggle-button"><div class="hamburger">
+     <span></span>
+     <span></span>
+     <span></span>
+    </div>
+     </button><a href="https://www.pioneerblogspot.co.ke/" class="logo log"><span class="log1">Pioneer</span>Blogspot</a>
+    </div>
+    <nav>
+      <ul>
+        <li><a  class="toggle-element " href="fashionblogs.html">Fashion</a></li>
+        <li><a  class="toggle-element " href="https://www.pioneerblogspot.co.ke/Finance.html">Financial</a></li>
+        <li><a class="toggle-element " href="farming.html">Farming</a></li>
+        <li><a class="toggle-element " href="opinions.html">Opinions</a></li>
+        <li><a class="toggle-element "href="https://jokibs.github.io/elle/products.html">shop</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+   <section>
+    <article class="spc">   
+  <h1>how to connect custom domain from host pinnacle to your Github hosted site</h1>
+ <br>
+A domain is a unique identifier that represents a website or an online resource on the internet. It is the part of a URL that comes after the "www." and before the top-level domain extension (such as ".com" or ".org"). For example, in the URL "www.example.com", "example" is the domain name.<br>
+<br>
+Domains are needed because they provide a human-readable and memorable way to access websites and online resources. Without domains, we would have to remember and enter complex IP addresses (a series of numbers) to access a website or online resource. Domains make it easier for people to find and access websites, and they also allow businesses and individuals to establish a unique online identity and brand.<br>
+<br>
+Domains are also important for website owners because they can affect search engine rankings, website traffic, and overall online visibility. A well-chosen and well-promoted domain name can help attract more visitors to a website, while a poorly chosen or obscure domain name can make it difficult for people to find and remember a website. Additionally, owning a domain name gives website owners control over their online presence and enables them to create professional email addresses and custom branding for their online business or personal website.<br>
+<br>
+
+
+<b>GitHub Pages</b> is a great option to host a website without spending a dime on web hosting fees. However, by default, GitHub Pages provides a subdomain for your website. But, you may prefer to use your own domain name instead of a subdomain provided by GitHub Pages. Luckily, you can connect your custom domain to your GitHub Pages site easily.<br>
+<br>
+In this blog, we will guide you through the steps to connect your custom domain to your GitHub Pages site.<br>
+<br>
+<b>Step 1:</b> <h2>Purchase a Domain Name</h2>
+<br>
+First and foremost, you need to purchase a domain name from a domain registrar. A popular domain registrars in kenya is  <a href="https://www.hostpinnacle.co.ke/">HostPinnacle</a>The price of a domain name varies depending on the extension and the domain registrar you choose. Once you have purchased your domain name, you need to log in to hostpinnacle's client login  dashboard . You will find  your information  and the domain you purchased.Click on your domain and check if it is active if not make a ticket and ask them to activate your domain.<br>
+<br>
+<b> Step 2:</b><h3> Configure DNS Settings</h3><br>
+<br>
+Next, you need to configure the DNS settings for your domain. You need to add a CNAME or A record to your DNS settings to point your custom domain to your GitHub Pages site.<br>
+<br>
+below are the general  procedures  to connect  your site to Github   to your custom domain follow the following:<br>
+<br><div style=" background-color:#ccc;">
+- Add a CNAME record if you want to use a subdomain (e.g., www.yourdomain.com).<br>
+<br>
+  - In the Name or Host field, enter your subdomain (e.g., www).<br>
+  <br>
+  - In the Value or Points to field, enter your GitHub Pages URL (e.g., yourusername.github.io).<br>
+  <br>
+- Add an A record if you want to use the root domain (e.g., yourdomain.com).<br>
+<br>
+  - In the Name or Host field, enter your root domain (e.g., yourdomain.com).<br>
+  <br>
+  - In the Value or Points to field, enter the IP address of GitHub's servers (185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153).<br>
+  <br>
+  </div>
+For hostpinnacle what you need to do is  open a ticket  then write your cname records and ask them  to add your cname records .<br>
+  <br>
+<b> Tip:</b>Be sure to include the trailing period at the end of your Github page (yourusername.github.io.)Which i have identified to be causing an issue.<br>
+  <br>
+<b>your message  should  look like this</b><br>
+<br>
+<div style=" background-color:#ccc;">
+   <b>Cname records :</b><br>
+Host name =example.co.ke<br>
+Value=example.github.io.<br>
+
+<br>
+<b> A records:</b><br>
+In the "Name" field, enter @ :<br><br>
+In the "Value" field, enter the IP address of GitHub Pages: 185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153<br>
+ </div>
+ <br> 
+Your ticket  will be answered  and the changes will take effect. you will now be able to use  your new domain name.<br>
+<br>
+<b>Step 3: </b><h4>Configure GitHub Pages</h4><br>
+<br>
+Once you have configured the DNS settings, you need to configure your GitHub Pages site to use your custom domain. Follow these steps:<br>
+<br>
+1. In your GitHub repository, click on the Settings tab.<br>
+2. Scroll down to the GitHub Pages section.<br>
+3. In the Custom domain field, enter your custom domain name (e.g., yourdomain.com).<br>
+4. Click Save.<br>
+<br>
+<b>Step 4:</b><h5> Wait for DNS Propagation</h5><br>
+<br>
+DNS propagation is the time it takes for your DNS changes to take effect. It usually takes a few hours, but it can take up to 48 hours for the changes to propagate worldwide. During this time, your website may be inaccessible or may display a GitHub Pages default page.<br>
+<br>
+<b> Step 5: </b><h6>Enjoy Your Custom Domain</h6><br>
+<br>
+Once the DNS propagation is complete, you can access your website using your custom domain name. Congratulations, you have successfully connected your custom domain to your GitHub Pages site.<br>
+<br>
+connecting your custom domain to your GitHub Pages site is a straightforward process. By following the steps outlined above, you can use your own domain name for your GitHub Pages site.<br>
+    </article>
+  </section>       
+ </main>
+<script src="web.js"></script>
+</body>
+</html>
+ 
