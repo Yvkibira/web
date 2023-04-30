@@ -11,14 +11,30 @@
 </script>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
- <meta name="keywords" content="tic,tac,Toe,online games,">
- <meta name="description" content=" this page has a simple tic tac toe game./>
+ <meta name="keywords" content="tic,tac,Toe, TicTacToe  rules,online games,Noughts and Crosses,">
+ <meta name="description" content=" this page has a simple tic tac toe game.And also TicTacToe rules"/>
  <meta name="robots" content="index, follow">
 
- <meta name="author" content="Jokibs">
+ <link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png"> 
+  <link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png"> 
+  <link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png"> 
+  <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png"> 
+  <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-96x96.png">
+<meta property="og:title" content="tic-tac-toe">
+<meta property="og:site_name" content="Pioneerblogspot">
+<meta property="og:url" content="https://www.pioneerblogspot.co.ke/">
+<meta property="og:description" content="a TicTacToe game">
+<meta property="og:type" content="website">
+<link rel="stylesheet" href="web.css">
 	<title>Tic Tac Toe</title>
 	<style>
-		.container {
+	.marg { margin :10px;}
+		.containerg {
 			display: flex;
 			flex-wrap: wrap;
 			justify-content: center;
@@ -44,10 +60,23 @@
 		.box.player2 {
 			color: blue;
 		}
+		#game-container {
+	margin: 0 auto; /* Centers the container horizontally */
+	width: 300px; /* Sets the width of the container */
+	text-align: center; /* Centers the game board within the container */
+}
+
+#code-container {
+	margin: 20px auto; /* Adds space between the game and code containers */
+	width: 300px; /* Sets the width of the container */
+	text-align: center; /* Centers the code within the container */
+}
+
 	</style>
 </head>
 <body>
-	<div class="container">
+   <div class="marg"> 
+	<div class="containerg">
 		<div class="box"></div>
 		<div class="box"></div>
 		<div class="box"></div>
@@ -58,7 +87,46 @@
 		<div class="box"></div>
 		<div class="box"></div>
 	</div>
+	<div id="code-container">
+<!--  -->		<button id="restart-button">Restart</button>
+		
+	</div>
+		<h1> Tic-Tac-Toe</h1>
+	<br>
+	<b style="background-color:red"> player1:red / X	</b><br><br>
+	<b style="background-color:blue"> player2 :blue / O</b>
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
 
+<article class="spc">
+<h2>here are the basic rules for playing Tic Tac Toe:</h2>
+<br>
+1. The game is played on a 3x3 grid. <br>
+<br>
+2. There are two players in the game, X and O. X goes first. <br>
+<br>
+3. Players take turns placing their mark (X or O) on an empty square of the grid.<br>
+<br> 
+4. The game ends when one player has three of their marks in a row (horizontally, vertically, or diagonally) or when all squares are filled without either player achieving three in a row. 
+5. If a player gets three of their marks in a row, they win the game. <br>
+<br>
+6. If all squares are filled and no player has three in a row, the game is a draw.<br>
+<br> 
+7. Players cannot play on a square that has already been marked.<br>
+<br> 
+8. The game is over as soon as a player wins or the game is declared a draw.<br>
+<br> 
+9. Players can choose to play multiple games in a row, alternating who goes first.<br>
+<br> 
+
+These are the basic rules for playing Tic Tac Toe. Good luck and have fun!<br>
+<br>
+</article>
 	<script>const boxes = document.querySelectorAll(".box");
 let currentPlayer = 1;
 let winner = false;
@@ -124,12 +192,16 @@ boxes.forEach(box => {
 			}
 		}
 	});
-});
+});// Select the existing "Restart" button element by ID
+const restartButton = document.getElementById("restart-button");
 
-const restartButton = document.createElement("button");
-restartButton.textContent = "Restart";
+// Add event listener to the restart button
 restartButton.addEventListener("click", restartGame);
-document.body.appendChild(restartButton);
+
+
+
 </script>
+ <footer><p>PIONEERBLOGSPOT.CO.KE </p></footer><div class="flinks"><div class="one"><a href="https://www.pioneerblogspot.co.ke/fashionblogs.html">Fashion Blog</a><a href="https://www.pioneerblogspot.co.ke/farming.html">Farming Blog</a></div><div class="two">                
+<a href="https://www.pioneerblogspot.co.ke/opinions.html">Opinion Blog</a><a href="https://www.pioneerblogspot.co.ke/finance.html">Finance Blog</a></div><div class="three"><a href="https://www.pioneerblogspot.co.ke/tic.html">TicTacToe Game</a></div></div><div class="links"><a href="mailto:blogspotpioneer@gmail.com">contact us| </a><a href="https://www.pioneerblogspot.co.ke/disclaimer.html">Disclaimer</a></div>
 </body>
 </html>
