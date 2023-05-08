@@ -1,0 +1,153 @@
+*{padding:0rem;margin:0rem;}
+body{background:white;color:black;Text-align:center;font-family:monospace; line-height: 1.5;}
+     /* Header */
+header{background:grey;border-bottom:3px solid pink ;box-shadow:0.3125rem 0.0625rem 0.625rem black;padding:0.625rem;overflow: hidden;background-color:#333;position: fixed;top:0;width:100%;z-index:2}
+nav a{text-decoration:none;font-family:cursive;
+     color:white;}
+header ul li{ display :inline;color:white;}
+    /* hamburger menu*/
+button:hover {background: pink;}button{background: grey;}.hidden {display: none;}
+
+.hamburger {display: inline-block;cursor: pointer;padding: 0.625rem 0.9375rem;}
+
+.hamburger span {
+  display: block;
+  height: 3px;
+  width: 25px;
+  margin-bottom: 5px;
+  position: relative;
+  background: black;
+  border-radius: 3px;
+  z-index: 1;}
+.container {display: flex;align-items: center;
+}
+ 
+ /*  */
+    main{padding-top:6.25rem;background:white;}
+     /* images */
+img{width:15.625rem;height:16.6875rem;padding:1.25rem;border-radius:1.875rem;}
+    /*  */                           
+.showcase {background:white;font-family:cursive ; width: 100%;padding-bottom:2.5rem;}
+/* index  articles*/
+.lblogs{padding:1.25rem;brder-top:1px solid black;display: flex;align-items: center;}
+
+.lnone{padding:0rem;}
+
+.lblogs a{Text-align:left;text-decoration:none;
+color:black;font-weight:bold;}
+    /* logos on index */
+.lblogs img {width:75px;height:65px;padding:10px;}
+/* time paragraph on index*/
+.bottom {border-bottom:1px solid black;
+font-family:cursive;
+Text-align:right;
+margin-right:10px;}
+/*  */
+.content {display: flex;flex-direction: column;}
+
+.big{font-size :1.875rem;}
+.latest{text-align:left;font-size:0.875rem;padding-bottom:0.625rem;
+margin-left:5px;
+box-shadow:5px 1px 10px black;
+bacground: #eee;
+color:# ;
+}
+
+.logo{font-family:cursive;}
+.log{text-decoration :none; color:white;font-size:25px ;font-weight :bold;}
+.log1{font-size:40px;}
+
+ h2{padding:10px;}         
+ .spc{Text-align:left;padding:10px;
+border-bottom:2px solid black;}
+         
+/*  Add margin for desktop devices  */
+@media only screen and (min-width: 1024px) {
+  body {
+    margin: 0 25.25rem;
+  }
+
+}
+     /* table */
+ table{ border: 1px solid white;
+ Text-align :center;
+ border-collapse:collapse;
+ width: 100%;}
+ th{ border-bottom: 1px solid white;
+ Text-align :center;}
+td{border: 1px solid white;}
+.op{border-left:1px solid white;}
+
+#myDiv {
+  display: none;
+}
+.farma a{text-decoration:none;
+color: black;}
+.call{padding:0px 5px;}
+.farma{position: relative;
+bottom:80px;}
+
+
+.data{background-color: green;
+padding:10px 50px;
+border-radius:30px;}
+.data a{ 
+    text-decoration :none;
+}
+    /*footer  */
+footer{background-color :#eee;  
+border-top:3px solid  black; }
+footer p{
+   margin: 10px;
+  
+}
+links { margin: 20px;
+  box-shadow:5px 1px 10px black;}
+.links a{ text-decoration:none;
+color:purple;
+display :inline;
+
+}
+
+.flinks  {
+  display: inline;
+  vertical-align: top;
+  Text-align :center ;
+}
+
+.flinks ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.flinks li {
+  margin: 0;
+  padding: 0;
+}
+.flinks a{ text-decoration: none;
+  color: #333;
+  Text-align :center ;
+  width: 55px;
+  box-shadow:5px 1px 10px black;}
+
+.one a {padding:  10px ;
+margin: 20px;}
+
+.two a {
+  padding:10px;
+  margin: 20px ;
+}
+.three a {padding:  10px ;
+  margin: 20px;
+}
+
+.one{padding:10px ;
+margin: 10px;}
+.two{padding:10px ;
+margin: 20px;}
+.three{padding:10px ;
+margin: 20px ;
+}
+.top{margin:10px;}
+.bot{margin:0px 10px;}
