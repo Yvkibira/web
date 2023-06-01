@@ -255,3 +255,4 @@ main li {
     margin: 1.25rem; /* 20px / 16px */
   }
 }
+.related{border-bottom:2px solid pink;border-top:2px solid pink;}
