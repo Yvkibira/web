@@ -236,7 +236,7 @@ main a {
 }
 
 main li {
-  margin-left: 0.9375rem; /* 1.5rem / 16px */
+  margin-left: 2rem; /* 1.5rem / 16px */
 }
 
 @media only screen and (max-width: 320px) {
