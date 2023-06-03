@@ -256,3 +256,10 @@ main li {
   }
 }
 .related{border-bottom:2px solid pink;border-top:2px solid pink;}
+a:hover {
+
+  text-decoration: none;
+
+  outline: 0 none;
+
+  color: #21c0f5;}
