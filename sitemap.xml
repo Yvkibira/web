@@ -20,12 +20,17 @@
 
 <url>
   <loc>https://www.pioneerblogspot.co.ke/fashionblogs.html</loc>
-  <lastmod>2023-06-02T09:21:46+00:00</lastmod>
-  
+ <lastmod>2023-06-02T09:21:46+00:00</lastmod>
+  <image:image>
+<image:loc>https://www.pioneerblogspot.co.ke/janet.jpg</image:loc>
+<image:caption>Ellecrochet </image:caption>
+<image:title>Crochet top</image:title>
+</image:image>
 </url>
 <url>
   <loc>https://www.pioneerblogspot.co.ke/finance.html</loc>
   <lastmod>2023-07-23T19:17:46+00:00</lastmod>
+ 
 </url>
 <url>
   <loc>https://www.pioneerblogspot.co.ke/farming.html</loc>
@@ -38,10 +43,20 @@
 <url>
   <loc>https://www.pioneerblogspot.co.ke/side-hustles-for-students.html</loc>
   <lastmod>2023-07-09T16:25:46+00:00</lastmod>
+   <image:image>
+<image:loc>https://www.pioneerblogspot.co.ke/side-hustle.png</image:loc>
+<image:caption>21 side hustle ides for students in kenya</image:caption>
+<image:title> Side Hustles for students in kenay</image:title>
+</image:image>
 </url>
 <url>
   <loc>https://www.pioneerblogspot.co.ke/affiliate-marketing-in-kenya.html</loc>
   <lastmod>2023-07-08T12:07:00+00:00</lastmod>
+  <image:image>
+<image:loc>https://www.pioneerblogspot.co.ke/aff-image.png</image:loc>
+<image:caption>Affiliate marketing in kenya</image:caption>
+<image:title>Affiliate marketing in kenya</image:title>
+</image:image>
 </url>
 <url>
   <loc>https://www.pioneerblogspot.co.ke/things-to-avoid-in-university.html</loc>
@@ -95,6 +110,11 @@
 <url>
   <loc>https://www.pioneerblogspot.co.ke/why-cooperative-bank-is-the-best-for-students.html</loc>
   <lastmod>2023-06-02T09:21:46+00:00</lastmod>
+  <image:image>
+<image:loc>https://www.pioneerblogspot.co.ke/coop-bank.jpg</image:loc>
+<image:caption>Cooperative bank best bank for students</image:caption>
+<image:title>Cooperative bank logo</image:title>
+</image:image>
 </url>
 <url>
   <loc>https://www.pioneerblogspot.co.ke/how-to-pay-pionner-international-university-fees.html</loc>
@@ -103,10 +123,20 @@
 <url>
   <loc>https://www.pioneerblogspot.co.ke/fastest-way-to-contact-zuku.html</loc>
   <lastmod>2023-06-02T09:21:46+00:00</lastmod>
+  <image:image>
+<image:loc>https://www.pioneerblogspot.co.ke/Zuku.jpg</image:loc>
+<image:caption>zuku logo</image:caption>
+<image:title>zuku logo</image:title>
+</image:image>
 </url>
 <url>
   <loc>https://www.pioneerblogspot.co.ke/mali-by-safaricom-the-best-investment-platform-students.html</loc>
   <lastmod>2023-06-02T09:21:46+00:00</lastmod>
+  <image:image>
+<image:loc>https://www.pioneerblogspot.co.ke/mpesa.webp</image:loc>
+<image:caption>mali by Safaricom logo</image:caption>
+<image:title>mali by Safaricom </image:title>
+</image:image>
 </url>
 <url>
   <loc>https://www.pioneerblogspot.co.ke/budget-friendly-places-to-visit-in-nairobi.html</loc>
@@ -238,10 +268,20 @@
 <url>
   <loc>https://www.pioneerblogspot.co.ke/how-to-buy-shares-in-kenya.html</loc>
   <lastmod>2023-06-02T09:21:46+00:00</lastmod>
+  <image:image>
+<image:loc>https://www.pioneerblogspot.co.ke/buy-shares.png</image:loc>
+<image:caption>how to buy shares in kenya</image:caption>
+<image:title>how to buy shares in kenya</image:title>
+</image:image>
 </url>
 <url>
   <loc>https://www.pioneerblogspot.co.ke/how-to-buy-safaricom-shares.html</loc>
   <lastmod>2023-07-23T13:21:46+00:00</lastmod>
+    <image:image>
+<image:loc>https://www.pioneerblogspot.co.ke/safaricom-logo.jpg</image:loc>
+<image:caption>how to buy Safaricom shares in kenya</image:caption>
+<image:title>how to buy Safaricom shares in kenya</image:title>
+</image:image>
 </url>
 <url>
   <loc>https://www.pioneerblogspot.co.ke/how-to-apply-for-kenya-airways-job.html</loc>
@@ -258,10 +298,20 @@
 <url>
   <loc>https://www.pioneerblogspot.co.ke/mobile-html-editor.html</loc>
   <lastmod>2023-06-02T09:21:46+00:00</lastmod>
+  <image:image>
+<image:loc>https://www.pioneerblogspot.co.ke/trebedit-logo.jpg</image:loc>
+<image:caption>treb edit logo</image:caption>
+<image:title>treb edit logo</image:title>
+</image:image>
 </url>
 <url>
   <loc>https://www.pioneerblogspot.co.ke/hostpinnacle-student-hosting-solutions.html</loc>
   <lastmod>2023-06-02T09:21:46+00:00</lastmod>
+  <image:image>
+<image:loc>https://www.pioneerblogspot.co.ke/domain-registrar.png</image:loc>
+<image:caption>HostPinnacle best domain and hosting services</image:caption>
+<image:title>HostPinnacle best domain and hosting services</image:title>
+</image:image>
 </url>
 <url>
   <loc>https://www.pioneerblogspot.co.ke/comparison-between-small-seo-tools-and-seoablity.html</loc>
