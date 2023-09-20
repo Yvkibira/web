@@ -73,7 +73,6 @@ background: purple;
 width: 100px;
 height: 50px;
 }
-@media screen and (max-width:547px) {
 .c-data{
     display: block;
 }
@@ -88,11 +87,3 @@ img{
     
     margin:0 auto;
 }
-}
-
-@media screen and (max-width:547px) {
-
-
-  
-    
-    }
