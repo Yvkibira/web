@@ -8,5 +8,17 @@ toggleButton.addEventListener('click', function() {
   });
 });
 
+// Create a new script element
+var scriptElement = document.createElement("script");
+scriptElement.async = true;
+scriptElement.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2705647526062186";
+scriptElement.crossOrigin = "anonymous";
+
+// Get the head element of the current HTML page
+var head = document.querySelector("head");
+
+// Append the script element to the head
+head.appendChild(scriptElement);
+
 
 
