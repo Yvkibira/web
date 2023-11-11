@@ -1,7 +1,7 @@
 *{padding:0rem;margin:0rem;}
-body{background:white;color:black;Text-align:center;font-family:monospace; line-height: 1.5;}
+body{background:white;color:black;Text-align:center;font-family:monospace;line-height:1.5;}
      /* Header */
-header{background:grey;border-bottom:3px solid pink ;box-shadow:0.3125rem 0.0625rem 0.625rem black;padding:0.625rem;overflow: hidden;background-color:#333;position: fixed;top:0;width:100%;z-index:2}
+header{background:grey;border-bottom:3px solid pink;box-shadow:0.3125rem 0.0625rem 0.625rem black;padding:0.625rem;overflow:hidden;background-color:#333;position:fixed;top:0;width:100%;z-index:2}
 nav a{text-decoration:none;font-family:cursive;color:white;}
 header ul li{ display :inline;color:white;}
     /* hamburger menu*/
@@ -10,17 +10,17 @@ button:hover {background: grey;}
 .hamburger {display: inline-block;cursor: pointer;padding: 0.625rem 0.9375rem;}
 .hamburger span {display: block;height: 3px;width: 25px;margin-bottom: 5px;position: relative;background: black;border-radius: 3px;z-index: 1;}
 .container {display: flex;align-items: center;}
-main {padding-top: 6.25rem; /* 100px / 16px */background: white;}
-img {width: 9.375rem; /* 150px / 16px */height: 10.4375rem; /* 167px / 16px */padding: 1.25rem; /* 20px / 16px */border-radius: 1.875rem; /* 30px / 16px */}
-.showcase {background: white;font-family: cursive;width: 100%;padding-bottom: 2.5rem; /* 40px / 16px */}
-.lblogs {padding: 1.25rem; /* 20px / 16px */border-top: 1px solid black;display: flex;align-items: center;}
+main {padding-top: 6.25rem;background: white;}
+img {width: 9.375rem;height: 10.4375rem;padding: 1.25rem;border-radius: 1.875rem;}
+.showcase {background: white;font-family: cursive;width: 100%;padding-bottom: 2.5rem;}
+.lblogs {padding: 1.25rem;border-top: 1px solid black;display: flex;align-items: center;}
 .lnone {padding: 0rem;}
 .lblogs a {text-align: left;text-decoration: none;color: black;font-weight: bold;}
-.lblogs img {width: 4.6875rem; /* 75px / 16px */height: 4.0625rem; /* 65px / 16px */padding: 0.625rem; /* 10px / 16px */
-.bottom {border-bottom: 1px solid black;font-family: cursive;text-align: right;margin-right: 0.625rem; /* 10px / 16px */}
+.lblogs img {width: 4.6875rem;height: 4.0625rem;padding: 0.625rem;}
+.bottom {border-bottom: 1px solid black;font-family: cursive;text-align: right;margin-right: 0.625rem;}
 .content {display: flex;flex-direction: column;}
 .big {font-size: 1.875rem; /* 30px / 16px */}
-.latest {text-align: center;margin:0 auto;max-width:170px;font-size: 0.875rem; /* 14px / 16px */padding-bottom: 0.625rem; /* 10px / 16px */margin-left: 0.3125rem; /* 5px / 16px */box-shadow: 0.3125rem 0.0625rem 0.625rem black; /* 5px / 16px, 1px / 16px, 10px / 16px */background: #eee;color: #333;}
+.latest {text-align: center;margin:0 auto;max-width:170px;font-size: 0.875rem; /* 14px / 16px */padding-bottom: 0.625rem; /* 10px / 16px */box-shadow: 0.3125rem 0.0625rem 0.625rem black; /* 5px / 16px, 1px / 16px, 10px / 16px */background: #eee;color: #333;}
 .logo {font-family: cursive;}
 .log {text-decoration: none;color: white;font-size: 1.5625rem; /* 25px / 16px */font-weight: bold;}
 .log1 {font-size: 2.5rem; /* 40px / 16px */}
