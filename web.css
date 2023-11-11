@@ -56,7 +56,6 @@ links { margin: 20px;box-shadow:5px 1px 10px black;}
 .one {padding: 0.625rem; /* 10px / 16px */margin: 0.625rem; /* 10px / 16px */}
 .two {padding: 0.625rem; /* 10px / 16px */margin: 1.25rem; /* 20px / 16px */}
 .three {padding: 0.625rem; /* 10px / 16px */margin: 1.25rem; /* 20px / 16px */}
-/*.top {margin: 0.625rem; /* 10px / 16px */}*/
 .bot {padding :10px ;border-bottom: 1px solid black;margin: 0px 0.625rem; /* 0px 10px / 16px */}
 main a {font-weight: bold;color: black;}
 main li {margin-left: 2rem; /* 1.5rem / 16px */}
