@@ -19,7 +19,7 @@ img {width: 9.375rem;height: 10.4375rem;padding: 1.25rem;border-radius: 1.875rem
 .bottom {border-bottom: 1px solid black;font-family: cursive;text-align: right;margin-right: 0.625rem;}
 .content {display: flex;flex-direction: column;}
 .big {font-size: 1.875rem;}
-.latest {text-align: center;margin:0 auto;max-width:170px;font-size: 0.875rem;padding-bottom: 0.625rem;box-shadow: 0.3125rem 0.0625rem 0.625rem black;background:#eee;color:#333;}
+.latest {text-align: center;margin:0 auto;max-width:170px;font-size: 0.875rem; margin-bottom:10px;padding-bottom: 0.625rem;box-shadow: 0.3125rem 0.0625rem 0.625rem black;background:#eee;color:#333;}
 .logo {font-family: cursive;}
 .log {text-decoration: none;color: white;font-size: 1.5625rem;font-weight: bold;}
 .log1 {font-size: 2.5rem;}
