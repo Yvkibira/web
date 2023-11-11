@@ -1,5 +1,4 @@
-*{padding:0rem;margin:0rem;}
-body{background:white;color:black;Text-align:center;font-family:monospace;line-height:1.5;}
+*{padding:0rem;margin:0rem;}  body{background:white;color:black;Text-align:center;font-family:monospace;line-height:1.5;}
      /* Header */
 header{background:grey;border-bottom:3px solid pink;box-shadow:0.3125rem 0.0625rem 0.625rem black;padding:0.625rem;overflow:hidden;background-color:#333;position:fixed;top:0;width:100%;z-index:2}
 nav a{text-decoration:none;font-family:cursive;color:white;}
@@ -19,18 +18,17 @@ img {width: 9.375rem;height: 10.4375rem;padding: 1.25rem;border-radius: 1.875rem
 .lblogs img {width: 4.6875rem;height: 4.0625rem;padding: 0.625rem;}
 .bottom {border-bottom: 1px solid black;font-family: cursive;text-align: right;margin-right: 0.625rem;}
 .content {display: flex;flex-direction: column;}
-.big {font-size: 1.875rem; /* 30px / 16px */}
-.latest {text-align: center;margin:0 auto;max-width:170px;font-size: 0.875rem; /* 14px / 16px */padding-bottom: 0.625rem; /* 10px / 16px */box-shadow: 0.3125rem 0.0625rem 0.625rem black; /* 5px / 16px, 1px / 16px, 10px / 16px */background: #eee;color: #333;}
+.big {font-size: 1.875rem;}
+.latest {text-align: center;margin:0 auto;max-width:170px;font-size: 0.875rem;padding-bottom: 0.625rem;box-shadow: 0.3125rem 0.0625rem 0.625rem black;background:#eee;color:#333;}
 .logo {font-family: cursive;}
-.log {text-decoration: none;color: white;font-size: 1.5625rem; /* 25px / 16px */font-weight: bold;}
-.log1 {font-size: 2.5rem; /* 40px / 16px */}
-h2 {padding: 0.625rem; /* 10px / 16px */}
-.spc {text-align: left;padding: 0.625rem; /* 10px / 16px */border-bottom: 0.125rem solid black; /* 2px / 16px */}   
+.log {text-decoration: none;color: white;font-size: 1.5625rem;font-weight: bold;}
+.log1 {font-size: 2.5rem;}
+h2 {padding: 0.625rem;}
+.spc {text-align: left;padding: 0.625rem;border-bottom: 0.125rem solid black;}   
    /*  Add margin for desktop devices  */
 @media only screen and (min-width: 1024px) {body {max-width: 100%;max-height: 100%;}main{margin: 0 12.5rem; }}
      /* table */
- table{border: 1px solid white;
- Text-align:center;border-collapse:collapse;width: 100%;}
+table{border: 1px solid white;Text-align:center;border-collapse:collapse;width: 100%;}
 th{border-bottom: 1px solid white;Text-align:center;}
 td{border: 1px solid white;}
 .op{border-left:1px solid white;}
@@ -43,22 +41,21 @@ td{border: 1px solid white;}
     /*footer*/
 footer{background-color:#eee;border-top:3px solid  black;}
 footer p{margin: 10px;}
-.links { margin: 20px;box-shadow:5px 1px 10px black;}
 .links a{ text-decoration:none;color:purple;display :inline;}
 .flinks {display: inline;vertical-align: top;text-align:center;}
 .flinks ul{list-style: none;margin: 0;padding: 0;}
 .flinks li {margin: 0;padding: 0;}
-.flinks a {text-decoration:none;color:#333;text-align:center;width: 3.4375rem; /* 55px / 16px */box-shadow: 0.3125rem 0.0625rem 0.625rem black; /* 5px / 16px, 1px / 16px, 10px / 16px */}
-.one a {padding: 0.625rem; /* 10px / 16px */margin: 1.25rem; /* 20px / 16px */}
-.two a {padding: 0.625rem; /* 10px / 16px */margin: 1.25rem; /* 20px / 16px */}
-.three a {padding: 0.625rem; /* 10px / 16px */margin: 1.25rem; /* 20px / 16px */}
-.one {padding: 0.625rem; /* 10px / 16px */margin: 0.625rem; /* 10px / 16px */}
-.two {padding: 0.625rem; /* 10px / 16px */margin: 1.25rem; /* 20px / 16px */}
-.three {padding: 0.625rem; /* 10px / 16px */margin: 1.25rem; /* 20px / 16px */}
-.bot {padding :10px ;border-bottom: 1px solid black;margin: 0px 0.625rem; /* 0px 10px / 16px */}
+.flinks a {text-decoration:none;color:#333;text-align:center;width: 3.4375rem;box-shadow: 0.3125rem 0.0625rem 0.625rem black;}
+.one a {padding: 0.625rem;margin: 1.25rem;}
+.two a {padding: 0.625rem;margin: 1.25rem;}
+.three a {padding: 0.625rem;margin: 1.25rem;}
+.one {padding: 0.625rem;margin: 0.625rem;}
+.two {padding: 0.625rem;margin: 1.25rem;}
+.three {padding: 0.625rem;margin: 1.25rem;}
+.bot {padding :10px ;border-bottom: 1px solid black;margin: 0px 0.625rem;}
 main a {font-weight: bold;color: black;}
-main li {margin-left: 2rem; /* 1.5rem / 16px */}
-@media only screen and (max-width: 320px) {.one a {padding: 0.3125rem; /* 5px / 16px */margin: 0.625rem; /* 10px / 16px */}.two a {padding: 0.3125rem; /* 5px / 16px */margin: 0.625rem; /* 10px / 16px */}.three a {padding: 0.625rem; /* 10px / 16px */margin: 1.25rem; /* 20px / 16px */}}
+main li {margin-left: 2rem;}
+@media only screen and (max-width: 320px) {.one a {padding: 0.3125rem;margin: 0.625rem;}.two a {padding: 0.3125rem;margin: 0.625rem;}.three a {padding: 0.625rem;margin:1.25rem;}}
 .related{border-bottom:2px solid pink;border-top:2px solid pink;}
 a:hover {text-decoration: none;outline: 0 none;color: #21c0f5;}
 footer a {text-decoration:none;color:black;}
