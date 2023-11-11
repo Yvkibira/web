@@ -43,7 +43,7 @@ td{border: 1px solid white;}
     /*footer*/
 footer{background-color:#eee;border-top:3px solid  black;}
 footer p{margin: 10px;}
-links { margin: 20px;box-shadow:5px 1px 10px black;}
+.links { margin: 20px;box-shadow:5px 1px 10px black;}
 .links a{ text-decoration:none;color:purple;display :inline;}
 .flinks {display: inline;vertical-align: top;text-align:center;}
 .flinks ul{list-style: none;margin: 0;padding: 0;}
