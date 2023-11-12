@@ -20,6 +20,7 @@ img {width: 9.375rem;height: 10.4375rem;padding: 1.25rem;border-radius: 1.875rem
      color: #21c0f5;
 }
 .showcase {background: white;font-family: cursive;width: 100%;padding-bottom: 2.5rem;}
+h1.latest.top:hover {box-shadow: unset;background: unset;font-weight: bold;font-family: cursive;}
 .lblogs {padding: 1.25rem;border-top: 1px solid black;display: flex;align-items: center;}
 .lnone {padding: 0rem;}
 .lblogs a {text-align: left;text-decoration: none;color: black;font-weight: bold;}
