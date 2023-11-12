@@ -16,6 +16,9 @@ img {width: 9.375rem;height: 10.4375rem;padding: 1.25rem;border-radius: 1.875rem
 .h-buttons button{background:#333;border: none;}
 .h-buttons button img:hover{opacity: 0.3;}
 @media screen  and (max-width: 575px){.h-buttons{ display: none;}}
+.category a{
+     color: #21c0f5;
+}
 .showcase {background: white;font-family: cursive;width: 100%;padding-bottom: 2.5rem;}
 .lblogs {padding: 1.25rem;border-top: 1px solid black;display: flex;align-items: center;}
 .lnone {padding: 0rem;}
