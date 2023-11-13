@@ -65,7 +65,7 @@ footer p{margin: 10px;}
 .bot {padding :10px ;border-bottom: 1px solid black;margin: 0px 0.625rem;}
 main a {font-weight: bold;color: black;}
 main li {margin-left: 2rem;}
-@media only screen and (max-width: 320px) {.one a {padding: 0.3125rem;margin: 0.625rem;}.two a {padding: 0.3125rem;margin: 0.625rem;}.three a {padding: 0.625rem;margin:1.25rem;}}
+@media only screen and (max-width: 350px) {.one a {padding: 0.3125rem;margin: 0.625rem;}.two a {padding: 0.3125rem;margin: 0.625rem;}.three a {padding: 0.625rem;margin:1.25rem;}}
 .related{border-bottom:2px solid pink;border-top:2px solid pink;}
 a:hover {text-decoration: none;outline: 0 none;color: #21c0f5;}
 footer a {text-decoration:none;color:black;}
