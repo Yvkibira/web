@@ -60,6 +60,7 @@ footer p{margin: 10px;}
 .two {padding: 0.625rem;margin: 1.25rem;}
 .three {padding: 0.625rem;margin: 1.25rem;}
 .bot {padding :10px ;border-bottom: 1px solid black;margin: 0px 0.625rem;}
+main {padding-top: 6.25rem;}
 main a {font-weight: bold;color: black;}
 main li {margin-left: 2rem;}
 @media only screen and (max-width: 350px) {.one a {padding: 0.3125rem;margin: 0.625rem;}.two a {padding: 0.3125rem;margin: 0.625rem;}.three a {padding: 0.625rem;margin:1.25rem;}}
