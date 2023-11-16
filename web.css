@@ -69,3 +69,26 @@ main li {margin-left: 2rem;}
 .related{border-bottom:2px solid pink;border-top:2px solid pink;}
 a:hover {text-decoration: none;outline: 0 none;color: #21c0f5;}
 footer a {text-decoration:none;color:black;}
+ .aff  img , .footeraff img{    width: unset;
+    height: unset;
+    padding: unset;
+    border-radius: unset;}
+    .aff{padding-top: 5.45rem;}
+      main{
+        padding-top: unset;
+      }
+
+   @media only screen and (min-width: 1024px){
+    main{
+        padding-top:6.25rem ;
+      }
+    .aff{ 
+      position: absolute;
+    left: 25px;
+    padding-top: 5.45rem;}
+ 
+      main {
+    margin: unset;
+    margin-left: 25.75rem;
+}
+}
