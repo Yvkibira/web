@@ -15,9 +15,7 @@ img {width: 9.375rem;height: 10.4375rem;padding: 1.25rem;border-radius: 1.875rem
 .h-buttons button{background:#333;border: none;}
 .h-buttons button img:hover{opacity: 0.3;}
 @media screen  and (max-width: 575px){.h-buttons{ display: none;}}
-.category a{
-     color: #21c0f5;
-}
+.category a{color: #21c0f5;}
 .showcase {background: white;font-family: cursive;width: 100%;padding-bottom: 2.5rem;}
 h1.latest.top,h2.latest.top{box-shadow: unset;background: unset;font-weight: bold;font-family: cursive;}
 h2.latest.top{cursor: pointer;}
@@ -71,5 +69,4 @@ footer a {text-decoration:none;color:black;}
  .aff  img , .footeraff img{width: unset;height: unset;padding: unset;border-radius: unset;}.aff img{padding-top: 2.45rem;}
    @media only screen and (min-width: 1024px){
     main{padding-top:6.25rem ; margin: unset;margin-left: 25.75rem;}
-    .aff{position: absolute;left: 25px;}
-}
+    .aff{position: absolute;left: 25px;}}
