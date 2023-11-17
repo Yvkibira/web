@@ -10,5 +10,9 @@ var head = document.querySelector("head");
 // Append the script element to the head
 head.appendChild(scriptElement);
 
-  var excludedpages = ['disclaimer','fashionblogs','farming','opinions','privacy-policy','websites','services','health','wellness','life','safety','travel','jobs','politics','education','book-review'];var shouldAppendScript = false;var check;function scriptAdd(){for(var i = 0; i < excludedpages.length; i++){var check = excludedpages[i]+'.html';var loc=window.location.pathname; if(loc === check || loc ==="https://www.pioneerblogspot.co.ke/"){console.log(check); shouldAppendScript = false;break;}else{shouldAppendScript = true;}}if (shouldAppendScript) {var script = document.createElement('script');script.type = 'text/javascript';script.src = 'banner.js';document.head.appendChild(script);}}window.addEventListener("load",scriptAdd);
+ 
+    var excludedpages = ['disclaimer','fashion','farming','opinions','privacy-policy','websites','services','health','wellness','life','safety','travel','jobs','politics','education','book-review'];
+    var shouldAppendScript = false;
+    var check;
+    function scriptAdd(){for(var i = 0; i < excludedpages.length; i++){var check = 'https://www.pioneerblogspot.co.ke/' + excludedpages[i]+'.html';var loc=window.location.pathname; if(loc === check || loc ==="https://www.pioneerblogspot.co.ke/"){console.log(check); shouldAppendScript = false;break;}else{console.log("not "+check +"but is "+loc); shouldAppendScript = true;}}if (shouldAppendScript) {var script = document.createElement('script');script.type = 'text/javascript';script.src = 'banner.js';document.head.appendChild(script);}}window.addEventListener("load",scriptAdd);
  
