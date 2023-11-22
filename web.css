@@ -1,4 +1,4 @@
-*{padding:0rem;margin:0rem;}  body{background:white;color:black;Text-align:center;font-family:monospace;line-height:1.5;}
+*{padding:0rem;margin:0rem;} body{background:white;color:black;Text-align:center;font-family:monospace;line-height:1.5;}
      /* Header */
 header{border-bottom:3px solid pink;box-shadow:0.3125rem 0.0625rem 0.625rem black;padding:0.625rem;overflow:hidden;background-color:#333;position:fixed;top:0;width:100%;z-index:2}
 nav a{text-decoration:none;font-family:cursive;color:white;}
@@ -68,3 +68,5 @@ main li {margin-left: 2rem;}
 a:hover {text-decoration: none;outline: 0 none;color: #21c0f5;}
 footer a {text-decoration:none;color:black;}
  
+ .desktop-ad{ display:block;position: absolute;width: 160px;height: 600px;left: 20px;margin-top: 153px;}
+      @media (max-width:1080px){.desktop-ad{display: none;}}
