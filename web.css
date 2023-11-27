@@ -18,7 +18,7 @@ button#toggle-button {
 .hamburger {display: inline-block;cursor: pointer;padding: 0.625rem 0.9375rem;}
 .hamburger span {display: block;height: 3px;width: 25px;margin-bottom: 5px;position: relative;background: black;border-radius: 3px;z-index: 1;}
 .container {display: flex;align-items: center;}
-img {max-width:97%;height:auto;}
+img {max-width:40rem;height:auto;}
 .h-buttons{display:block;position: absolute;right: 0;background:#333;margin-right: 30px;}
 .h-buttons img{width: 1.75rem;margin-right: 0.3125rem;height: auto;border: none;padding: 0px;border-radius: 0px;background: #333;}
 .h-buttons button{background:#333;border: none;}
