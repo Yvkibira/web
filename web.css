@@ -6,6 +6,15 @@ header ul li{ display :inline;color:white;}
     /* hamburger menu*/
 button:hover {background: grey;}
 .hidden {display: none;}
+.hamburger i.material-icons {
+    color: white;
+    font-size: 2rem;
+}
+button#toggle-button {
+    background: #333;
+    border: none;
+    outline: none;
+}
 .hamburger {display: inline-block;cursor: pointer;padding: 0.625rem 0.9375rem;}
 .hamburger span {display: block;height: 3px;width: 25px;margin-bottom: 5px;position: relative;background: black;border-radius: 3px;z-index: 1;}
 .container {display: flex;align-items: center;}
