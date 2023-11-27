@@ -35,7 +35,7 @@ h2.latest.top{cursor: pointer;}
 .bottom {border-bottom: 1px solid black;font-family: cursive;text-align: right;margin-right: 0.625rem;}
 .content {display: flex;flex-direction: column;}
 .big {font-size: 1.875rem;}
-.latest:hover {text-align: center;margin:0 auto;max-width:170px;font-size: 0.875rem;border-radius:30px; margin-bottom:10px;padding-bottom: 0.625rem;box-shadow: 0.3125rem 0.0625rem 0.625rem black;background:#eee;color:#333;}
+.latest:hover{margin:0 auto;;font-size: 0.875rem;margin-bottom:10px;padding-bottom: 0.625rem;}
 .logo {font-family: cursive;}
 .log {text-decoration: none;color: white;font-size: 1.5625rem;font-weight: bold;}
 .log1 {font-size: 2.5rem;}
