@@ -1,4 +1,5 @@
 *{padding:0rem;margin:0rem;} body{background:white;color:black;Text-align:center;font-family:monospace;line-height:1.5;}
+html{scroll-behavior: smooth;}
      /* Header */
 header{border-bottom:3px solid pink;box-shadow:0.3125rem 0.0625rem 0.625rem black;padding:0.625rem;overflow:hidden;background-color:#333;position:fixed;top:0;width:100%;z-index:2}
 nav a{text-decoration:none;font-family:cursive;color:white;}
