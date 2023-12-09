@@ -14,8 +14,8 @@ button#toggle-button {background: #a9a9a9;border: none;outline: none;}
 .container {display: flex;align-items: center;}
 img {max-width:40rem;width:60%;height:auto;}
 .h-buttons{display:block;position: absolute;right: 0;background:#a9a9a9;margin-right: 30px;}
-.h-buttons img{width: 1.75rem;margin-right: 0.3125rem;height: auto;border: none;padding: 0px;border-radius: 0px;background: #333;}
-.h-buttons button{background:#333;border: none;}
+.h-buttons img{width: 1.75rem;margin-right: 0.3125rem;height: auto;border: none;padding: 0px;border-radius: 0px;background: #a9a9a9;}
+.h-buttons button{background:#a9a9a9;border: none;}
 .h-buttons button img:hover{opacity: 0.3;}
 @media screen  and (max-width: 575px){.h-buttons{ display: none;}}
 .category a{color: #21c0f5;}
