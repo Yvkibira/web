@@ -73,3 +73,6 @@ footer a {text-decoration:none;color:black;}
  
  .desktop-ad{ display:block;position: absolute;width: 160px;height: 600px;left: 20px;margin-top: 153px;}
       @media (max-width:1080px){.desktop-ad{display: none;}}
+ins.adsbygoogle[data-ad-status="unfilled"] {
+    display: none !important;
+}
