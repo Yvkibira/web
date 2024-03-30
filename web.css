@@ -37,7 +37,6 @@ h2 {padding: 0.625rem;}
 .spc {text-align: left;padding: 0.625rem;}   
    /*  Add margin for desktop devices  */
 @media only screen and (min-width: 1024px) {body {max-width: 100%;max-height: 100%;}main{margin: 0 12.5rem; }}
-     /* table */
 table{border: 1px solid white;Text-align:center;border-collapse:collapse;width: 100%;}
 th{border-bottom: 1px solid white;Text-align:center;}
 td{border: 1px solid white;}
@@ -48,7 +47,6 @@ td{border: 1px solid white;}
 .farma{position: relative;bottom:80px;}
 .data{background-color: green;padding:10px 50px;border-radius:30px;}
 .data a{text-decoration :none;}
-    /*footer*/
 footer{background-color:#eee;border-top:3px solid  black;}
 footer p{margin: 10px;}
 .links a{ text-decoration:none;color:purple;display :inline;}
@@ -70,14 +68,7 @@ main li {margin-left: 2rem;}
 .related{border-bottom:2px solid pink;border-top:2px solid pink;}
 a:hover {text-decoration: none;outline: 0 none;color: #21c0f5;}
 footer a {text-decoration:none;color:black;}
- 
- .desktop-ad{ display:block;position: absolute;width: 160px;height: 600px;left: 20px;margin-top: 153px;}
-      @media (max-width:1080px){.desktop-ad{display: none;}}
-ins.adsbygoogle[data-ad-status="unfilled"] {
-    display: none !important;
-}
-        .wth{
-            display: flex;
-    gap: 20px;
-    padding: 20px;
-    width: 100%;}
+.desktop-ad{display:block;position:absolute;width:160px;height:600px;left:20px;margin-top:153px;}
+@media (max-width:1080px){.desktop-ad{display: none;}}
+ins.adsbygoogle[data-ad-status="unfilled"]{display:none !important;}
+.wth{display:flex;gap:20px;padding:20px;width:100%;align-items:center;}
