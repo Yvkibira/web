@@ -3,5 +3,5 @@ const toggleButton =document.getElementById('toggle-button');const toggleElement
 function addLink(event) {var selection = window.getSelection();var pagelink = ". Read more at: " + document.location.href;var copytext = selection.toString() + pagelink;if (event.clipboardData) {event.clipboardData.setData('text/plain', copytext);event.preventDefault();}else if (window.clipboardData) {window.clipboardData.setData('Text', copytext);event.preventDefault();}}document.addEventListener('copy', addLink);
 var div=document.createElement('div');div.className="wth";div.id="wth";div.innerHTML=`<h5>Was this article helpful ?</h5><div id="tu"><i class="material-icons"onclick="sendResponse('1')">thumb_up</i></div><div id="td"><i class="material-icons"onclick="sendResponse('0')">thumb_down</i></div>`;window.addEventListener('load',()=>{document.getElementsByTagName("main")[0].appendChild(div)});
 function sendResponse(button){const Data={"button":button,"page":window.location.pathname}
-const formdata=JSON.stringify(Data);fetch("https://blogspot.sicklywall.com/api/", {method: "POST",body:formdata}).then(document.getElementById('wth').style.display="none";))}
+const formdata=JSON.stringify(Data);fetch("https://blogspot.sicklywall.com/api/", {method: "POST",body:formdata}).then(document.getElementById('wth').style.display="none")}
   
