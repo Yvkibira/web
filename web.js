@@ -1,7 +1,7 @@
 var head = document.createElement("head");var link =document.createElement("link");link.rel="stylesheet";link.type = "text/css";link.href = "https://fonts.googleapis.com/icon?family=Material+Icons";window.onload=function(){head.appendChild(link);document.head.appendChild(head);
 const toggleButton =document.getElementById('toggle-button');const toggleElements=document.querySelectorAll('.toggle-element');toggleButton.addEventListener('click', function(){toggleElements.forEach(element => {element.classList.toggle('hidden');});});};
 function addLink(event) {var selection = window.getSelection();var pagelink = ". Read more at: " + document.location.href;var copytext = selection.toString() + pagelink;if (event.clipboardData) {event.clipboardData.setData('text/plain', copytext);event.preventDefault();}else if (window.clipboardData) {window.clipboardData.setData('Text', copytext);event.preventDefault();}}document.addEventListener('copy', addLink);
-var div=document.createElement('div');div.className="wth";div.innerHTML=`<div id="tu"><i class="material-icons"onclick="sendResponse('1')">thumb_up</i></div><div id="td"><i class="material-icons"onclick="sendResponse('0')">thumb_down</i></div>`;window.addEventListener('load',function(){document.body.appendChild(div)}) 
-function sendResponse(button){const Data={"button" :button,"page":window.location.pathname}
-const formdata=JSON.stringify(Data);fetch("https://blogspot.sicklywall.com/api/", {method: "POST",body:formdata}).then(res => res.json()).then(data => console.log(data))}
+var div=document.createElement('div');div.className="wth";div.innerHTML=`<div id="tu"><i class="material-icons"onclick="sendResponse('1')">thumb_up</i></div><div id="td"><i class="material-icons"onclick="sendResponse('0')">thumb_down</i></div>`;window.addEventListener('load',function(){document.getElementByTagNames("main")[0].appendChild(div)}) 
+function sendResponse(button){const Data={"button":button,"page":window.location.pathname}
+const formdata=JSON.stringify(Data);fetch("https://blogspot.sicklywall.com/api/", {method: "POST",body:formdata})}
   
