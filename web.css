@@ -76,3 +76,8 @@ footer a {text-decoration:none;color:black;}
 ins.adsbygoogle[data-ad-status="unfilled"] {
     display: none !important;
 }
+        .wth{
+            display: flex;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;}
